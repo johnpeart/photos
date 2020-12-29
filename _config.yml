@@ -1,0 +1,67 @@
+# Site settings
+
+title: "Photos"
+description: "I’m John Peart. This site shows you some photos I've taken."
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://photos.johnpe.art"
+author: "John Peart"
+
+# Images and assets
+image-path: "/assets/images"
+css-path: "/assets/styles"
+js-path: "/assets/scripts"
+
+social-images-path: "/assets/images/social"
+post-images-path: "/assets/images/photos"
+
+social-media-image: "/assets/images/site/social-media.png"
+
+theme-colour: "#007aff"
+
+favicon: "/favicon.ico"
+favicon-svg: "/assets/images/site/favicon.svg"
+favicon-pinned-svg: "/assets/images/site/favicon-pinned-svg.svg"
+favicon-large-png: "/assets/images/site/favicon-large-png.png"
+
+# Social settings
+twitter-url: "https://twitter.com/johnpeart" # Twitter handle i.e. joebloggs
+twitter-handle: "johnpeart" # Twitter handle i.e. joebloggs
+
+github-url:  "https://github.com/johnpeart"
+github-handle:  "johnpeart"
+
+# Google settings
+google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"
+
+# Collections
+
+collections:
+  posts:
+      output: true
+      permalink: /photo/:year/:month/:day/:title
+        
+defaults:
+- scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "photos/photo"
+
+# Plugins and build settings
+
+paginate: 6
+pagination_path: '/page/:num/'
+
+permalink: pretty
+markdown: kramdown
+future: false
+sass:
+    sass_dir: _sass
+
+# Settings for 'jekyll-remote-theme'
+remote_theme: https://github.com/johnpeart/jekyll-theme
+
+plugins:
+- jekyll-remote-theme
+- jekyll-paginate
