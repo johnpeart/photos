@@ -1525,6 +1525,46 @@ body#photos-photo dl span.dl-item { display: block; position: relative; padding-
 
 body#photos-photo dl::after { content: ""; clear: both; display: table; }
 
+body#photos-photo article div.footnotes { padding-top: 96px; max-width: 600px; }
+
+body#photos-photo article div.footnotes:before { display: block; font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; content: "Footnotes"; }
+
+@media only screen and (max-width: 599px) { body#photos-photo article div.footnotes:before { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#photos-photo article div.footnotes:before { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#photos-photo article div.footnotes:before { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#photos-photo article div.footnotes:before { font-size: 26px; line-height: 32.5px; padding-top: 26px; padding-bottom: 8.6666666667px; } }
+
+@media only screen and (min-width: 1200px) { body#photos-photo article div.footnotes:before { font-size: 30px; line-height: 40px; padding-top: 30px; padding-bottom: 10px; } }
+
+@media only screen and (max-width: 599px) { body#photos-photo article div.footnotes { padding-top: 96px; max-width: 400px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#photos-photo article div.footnotes { padding-top: 108px; max-width: 500px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#photos-photo article div.footnotes { padding-top: 108px; max-width: 450px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#photos-photo article div.footnotes { padding-top: 120px; max-width: 600px; } }
+
+@media only screen and (min-width: 1200px) { body#photos-photo article div.footnotes { padding-top: 132px; max-width: 600px; } }
+
+body#photos-photo article div.footnotes ul, body#photos-photo article div.footnotes ol { padding-left: 32px; }
+
+@media only screen and (min-width: 766px) { body#photos-photo article div.footnotes ul, body#photos-photo article div.footnotes ol { padding-left: 0; } }
+
+body#photos-photo article div.footnotes p, body#photos-photo article div.footnotes .skip-link, body#photos-photo article div.footnotes li { font-size: 16px; line-height: 20px; padding-bottom: 16px; font-weight: normal; }
+
+@media only screen and (max-width: 599px) { body#photos-photo article div.footnotes p, body#photos-photo article div.footnotes .skip-link, body#photos-photo article div.footnotes li { font-size: 16px; line-height: 20px; padding-bottom: 16px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { body#photos-photo article div.footnotes p, body#photos-photo article div.footnotes .skip-link, body#photos-photo article div.footnotes li { font-size: 18px; line-height: 22.5px; padding-bottom: 18px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { body#photos-photo article div.footnotes p, body#photos-photo article div.footnotes .skip-link, body#photos-photo article div.footnotes li { font-size: 18px; line-height: 22.5px; padding-bottom: 18px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { body#photos-photo article div.footnotes p, body#photos-photo article div.footnotes .skip-link, body#photos-photo article div.footnotes li { font-size: 20px; line-height: 25px; padding-bottom: 20px; } }
+
+@media only screen and (min-width: 1200px) { body#photos-photo article div.footnotes p, body#photos-photo article div.footnotes .skip-link, body#photos-photo article div.footnotes li { font-size: 22px; line-height: 26.4px; padding-bottom: 22px; } }
+
 body.theme-apple h1 { color: #e6007e; /* Text and background color for dark mode */ }
 
 @supports (background-clip: text) or (-webkit-background-clip: text) { body.theme-apple h1 { color: transparent; background: #e6007e; /* For browsers that do not support gradients */ background: -webkit-linear-gradient(90deg, #e6007e, #c643fc, #007aff); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(90deg, #e6007e, #c643fc, #007aff); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(90deg, #e6007e, #c643fc, #007aff); /* For Firefox 3.6 to 15 */ background: linear-gradient(90deg, #e6007e, #c643fc, #007aff); /* Standard syntax */ -webkit-background-clip: text; background-clip: text; background-size: 100%; } }
