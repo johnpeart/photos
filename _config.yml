@@ -51,7 +51,7 @@ defaults:
 # Plugins and build settings
 
 paginate: 6
-pagination_path: '/page/:num/'
+paginate_path: '/page/:num/'
 
 permalink: pretty
 markdown: kramdown
