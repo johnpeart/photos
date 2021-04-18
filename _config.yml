@@ -1,45 +1,56 @@
-# Site settings
-
+######################
+# Site configuration #
+######################
 title: "Photos"
 description: "I’m John Peart. This site shows you some photos I've taken."
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://photos.johnpe.art"
 author: "John Peart"
 
-# Images and assets
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://photos.johnpe.art"
+
+####################
+# Feature settings #
+####################
+menu-subdomain: true
+menu-header: true
+menu-footer: true
+analytics: true
+
+###############
+# Asset paths #
+###############
 image-path: "/assets/images"
 css-path: "/assets/styles"
 js-path: "/assets/scripts"
-
-social-images-path: "/assets/images/social"
-post-images-path: "/assets/images/photos"
-
 social-media-image: "/assets/images/site/social-media.png"
-
-theme-colour: "#009fe3"
-
 favicon: "/favicon.ico"
 favicon-svg: "/assets/images/site/favicon.svg"
 favicon-pinned-svg: "/assets/images/site/favicon-pinned-svg.svg"
 favicon-large-png: "/assets/images/site/favicon-large-png.png"
+theme-colour: "#009fe3"
+post-images-path: "/assets/images/photos"
 
-# Social settings
+#######################
+# <link rel="me" ...> #
+#######################
+# Twitter
 twitter-url: "https://twitter.com/johnpeart" # Twitter handle i.e. joebloggs
 twitter-handle: "johnpeart" # Twitter handle i.e. joebloggs
-
+# Mastodon
+mastodon-url: "https://mastodon.social/@johnpeart"
+mastodon-handle: "johnpeart@mastodon.social"
+# Github
 github-url:  "https://github.com/johnpeart"
 github-handle:  "johnpeart"
 
-# Google settings
-google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"
-
-# Collections
-
+###############
+# Collections #
+###############
 collections:
   posts:
       output: true
       permalink: /photo/:year/:month/:day/:title
+      layout: "photos/photo"
         
 defaults:
 - scope:
@@ -48,19 +59,18 @@ defaults:
   values:
     layout: "photos/photo"
 
-# Plugins and build settings
-
-paginate: 6
-paginate_path: '/page/:num/'
-
+##################
+# Build settings #
+##################
+remote_theme: johnpeart/theme
 permalink: pretty
 markdown: kramdown
 future: false
+highlighter: rouge
 sass:
-    sass_dir: _sass
-
-# Settings for 'jekyll-remote-theme'
-remote_theme: https://github.com/johnpeart/jekyll-theme
+  sass_dir: _sass
+paginate: 6
+paginate_path: '/page/:num/'
 
 plugins:
 - jekyll-remote-theme
