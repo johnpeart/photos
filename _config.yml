@@ -6,7 +6,7 @@ description: "I’m John Peart. This site shows you some photos I've taken."
 author: "John Peart"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://photos.johnpe.art"
+url: "https://photos.johnpe.art"
 
 ####################
 # Feature settings #
