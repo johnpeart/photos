@@ -15,6 +15,6 @@ It’s odd that it’s taken a pandemic for me to appreciate my local park. I’
 
 It turns out that it’s a treasure trove of wildlife; I’d just never noticed.
 
-This is one of two swans that have appeared in the park in recent days, alongside some freshly hatched signets. This one was cleaning itself next to the pond, so I thought I’d take an impromptu snap.
+This is one of two swans that have appeared in the park in recent days, alongside some freshly hatched cygnets. This one was cleaning itself next to the pond, so I thought I’d take an impromptu snap.
 
 Nature is healing.
